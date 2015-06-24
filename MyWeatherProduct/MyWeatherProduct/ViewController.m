@@ -17,9 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSURL *url = [NSURL URLWithString:@"www.baidu.com"];
-    [[UIApplication sharedApplication] openURL:url];
-    
+    NSLog(@"hanhao!");
     
 }
 
